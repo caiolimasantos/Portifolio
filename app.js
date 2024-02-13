@@ -3,7 +3,6 @@ window.addEventListener('load', ()=>{
     preloader.classList.add('preloader-finish');
     changeTheme();
     scrollToTop();
-    window.scrollTo(0,0);
 })
 window.addEventListener('scroll',()=>{
     if(window.scrollY >= 10){
